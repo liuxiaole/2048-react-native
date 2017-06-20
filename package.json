@@ -1,0 +1,42 @@
+{
+	"name": "rn-2048",
+	"version": "0.0.1",
+	"private": true,
+	"scripts": {
+		"start": "node node_modules/react-native/local-cli/cli.js start",
+		"test": "jest",
+		"app-icon": "app-icon generate"
+	},
+	"dependencies": {
+		"apsl-react-native-button": "^3.0.2",
+		"buffer": "^5.0.6",
+		"lodash.flatten": "^4.4.0",
+		"react": "16.0.0-alpha.6",
+		"react-native": "0.43.2",
+		"react-native-animatable": "^1.2.1",
+		"react-native-gesture-recognizers": "^0.3.0",
+		"react-native-uuid": "^1.4.9",
+		"react-redux": "^5.0.5",
+		"redux": "^3.6.0",
+		"redux-thunk": "^2.2.0"
+	},
+	"devDependencies": {
+		"app-icon": "^0.5.0",
+		"babel-jest": "19.0.0",
+		"babel-preset-react-native": "1.9.1",
+		"eslint": "^3.19.0",
+		"eslint-config-react-app": "^1.0.4",
+		"eslint-plugin-flowtype": "^2.34.0",
+		"eslint-plugin-import": "^2.3.0",
+		"eslint-plugin-jsx-a11y": "^5.0.3",
+		"eslint-plugin-react": "^7.1.0",
+		"jest": "19.0.2",
+		"react-test-renderer": "16.0.0-alpha.6"
+	},
+	"jest": {
+		"preset": "react-native"
+	},
+	"react-native": {
+		"domain": false
+	}
+}
